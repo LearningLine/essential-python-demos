@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ba48dd1-33ad-46ae-b0c2-3d8175317257" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c_Basic_types_and_collections/collections.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c_Basic_types_and_collections/dates.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/game_basics/game.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c_Basic_types_and_collections/numbers.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c_Basic_types_and_collections/program.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c_Basic_types_and_collections/slices.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c_Basic_types_and_collections/strings.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/c_Basic_types_and_collections/placeholder.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/essential-python-demos.iml" afterPath="$PROJECT_DIR$/.idea/essential-python-demos.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/b_The_Python_Language/load_file.py" afterPath="$PROJECT_DIR$/b_The_Python_Language/load_file.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c_Basic_types_and_collections/lab/lab_basics.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="essential-python-demos.iws" />
@@ -31,6 +22,7 @@
     <SUITE FILE_PATH="coverage/essential-python-demos$closures.coverage" NAME="closures Coverage Results" MODIFIED="1415721893987" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/d_Functions" />
     <SUITE FILE_PATH="coverage/essential-python-demos$numbers.coverage" NAME="numbers Coverage Results" MODIFIED="1421883819479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/c_Basic_types_and_collections" />
     <SUITE FILE_PATH="coverage/essential-python-demos$game.coverage" NAME="game Coverage Results" MODIFIED="1421883814267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labs/game_basics" />
+    <SUITE FILE_PATH="coverage/essential-python-demos$lab_basics.coverage" NAME="lab_basics Coverage Results" MODIFIED="1421889313490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/c_Basic_types_and_collections/lab" />
     <SUITE FILE_PATH="coverage/essential-python-demos$sample.coverage" NAME="sample Coverage Results" MODIFIED="1421807192800" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/a_Intro_to_python" />
     <SUITE FILE_PATH="coverage/essential-python-demos$strings.coverage" NAME="strings Coverage Results" MODIFIED="1415654426294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/c_Basic_types_and_collections" />
     <SUITE FILE_PATH="coverage/essential-python-demos$wizards.coverage" NAME="wizards Coverage Results" MODIFIED="1415734450662" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/f_Error_Handling" />
@@ -121,11 +113,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="collections.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="collections.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/c_Basic_types_and_collections/collections.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6390042" vertical-offset="1751" max-vertical-offset="2233">
-              <caret line="71" column="9" selection-start-line="71" selection-start-column="9" selection-end-line="71" selection-end-column="11" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1751" max-vertical-offset="2233">
+              <caret line="68" column="16" selection-start-line="68" selection-start-column="16" selection-end-line="68" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lab_basics.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/c_Basic_types_and_collections/lab/lab_basics.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.08100559" vertical-offset="0" max-vertical-offset="358">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -169,6 +171,7 @@
         <option value="$PROJECT_DIR$/c_Basic_types_and_collections/program.py" />
         <option value="$PROJECT_DIR$/c_Basic_types_and_collections/slices.py" />
         <option value="$PROJECT_DIR$/c_Basic_types_and_collections/collections.py" />
+        <option value="$PROJECT_DIR$/c_Basic_types_and_collections/lab/lab_basics.py" />
       </list>
     </option>
   </component>
@@ -178,8 +181,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="71" />
     <option name="y" value="-4" />
-    <option name="width" value="1209" />
-    <option name="height" value="1028" />
+    <option name="width" value="1369" />
+    <option name="height" value="904" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -282,7 +285,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="b_The_Python_Language" />
+              <option name="myItemId" value="c_Basic_types_and_collections" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lab" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -323,27 +330,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.program (1)">
-    <configuration default="false" name="sample" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="/usr/bin/python2.7" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/a_Intro_to_python" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="essential-python-demos" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/a_Intro_to_python/sample.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.lab_basics">
     <configuration default="false" name="program" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -423,6 +410,26 @@
       <RunnerSettings RunnerId="PyDebugRunner" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PyDebugRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="lab_basics" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/c_Basic_types_and_collections/lab" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="essential-python-demos" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/c_Basic_types_and_collections/lab/lab_basics.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
@@ -615,19 +622,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.sample" />
-      <item index="1" class="java.lang.String" itemvalue="Python.program" />
-      <item index="2" class="java.lang.String" itemvalue="Python.game" />
-      <item index="3" class="java.lang.String" itemvalue="Python.numbers" />
-      <item index="4" class="java.lang.String" itemvalue="Python.program (1)" />
+      <item index="0" class="java.lang.String" itemvalue="Python.program" />
+      <item index="1" class="java.lang.String" itemvalue="Python.game" />
+      <item index="2" class="java.lang.String" itemvalue="Python.numbers" />
+      <item index="3" class="java.lang.String" itemvalue="Python.program (1)" />
+      <item index="4" class="java.lang.String" itemvalue="Python.lab_basics" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.program (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Python.numbers" />
-        <item index="2" class="java.lang.String" itemvalue="Python.game" />
-        <item index="3" class="java.lang.String" itemvalue="Python.program" />
-        <item index="4" class="java.lang.String" itemvalue="Python.sample" />
+        <item index="0" class="java.lang.String" itemvalue="Python.lab_basics" />
+        <item index="1" class="java.lang.String" itemvalue="Python.program (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Python.numbers" />
+        <item index="3" class="java.lang.String" itemvalue="Python.game" />
+        <item index="4" class="java.lang.String" itemvalue="Python.program" />
       </list>
     </recent_temporary>
   </component>
@@ -738,7 +745,13 @@
       <option name="project" value="LOCAL" />
       <updated>1421881687580</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="demos from types and collcitons.">
+      <created>1421888611745</created>
+      <option name="number" value="00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1421888611745</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -762,7 +775,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="71" y="-4" width="1209" height="1028" extended-state="6" />
+    <frame x="71" y="-4" width="1369" height="904" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -777,9 +790,9 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32964602" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25021496" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21995465" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.43362832" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.50256413" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -812,7 +825,8 @@
     <MESSAGE value="pylint." />
     <MESSAGE value="cleanup" />
     <MESSAGE value="Added file and import demos." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added file and import demos." />
+    <MESSAGE value="demos from types and collcitons." />
+    <option name="LAST_COMMIT_MESSAGE" value="demos from types and collcitons." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -985,8 +999,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/c_Basic_types_and_collections/collections.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6390042" vertical-offset="1751" max-vertical-offset="2233">
-          <caret line="71" column="9" selection-start-line="71" selection-start-column="9" selection-end-line="71" selection-end-column="11" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1751" max-vertical-offset="2233">
+          <caret line="68" column="16" selection-start-line="68" selection-start-column="16" selection-end-line="68" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/c_Basic_types_and_collections/lab/lab_basics.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.08100559" vertical-offset="0" max-vertical-offset="358">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
