@@ -18,6 +18,6 @@ def load_file():
                 data.append(price)
 
         final = sorted(data)
-        print("Highest price: {0} and lowest: {1}".format(
+        print("Highest price: {0:,} and lowest: ${1:,}".format(
             final[-1], final[0]
         ))
