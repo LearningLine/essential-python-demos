@@ -15,21 +15,6 @@ Cheers
 [@mkennedy](https://twitter.com/mkennedy) - 
 [http://blog.michaelckennedy.net/](http://blog.michaelckennedy.net/)
 
-Class Links
--------------------------
-
-Here are some links we discussed during class for safe keeping.
-
-* [PyCon 2014 YouTube Channel](https://www.youtube.com/user/PyCon2014)
-* [GemFury - Hosted, Privated PyPI Servers](https://gemfury.com/l/pypi-server)
-* [Private, on-premise PyPI Server](https://github.com/pypiserver/pypiserver)
-* [PyCoder's Weekly](http://us4.campaign-archive2.com/?u=9735795484d2e4c204da82a29&id=a089b06ae4)
-* [Size of .NET vs Python Communities](http://blog.michaelckennedy.net/2014/02/21/ever-wonder-how-big-the-net-and-python-communities-are/)
-* [Vote for Python on Windows (NOW!)](https://windows.uservoice.com/forums/265757-windows-feature-suggestions/suggestions/6693586-ship-python-3-and-python-2-with-windows-10)
-* [Profiling in Python](https://stackoverflow.com/questions/110259/which-python-memory-profiler-is-recommended)
-* [Extending Python via C++/C](https://docs.python.org/3.4/extending/extending.html)
-
-
 Course Outline
 ----------------------
 
