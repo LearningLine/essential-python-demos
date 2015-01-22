@@ -1,10 +1,11 @@
 import random
 import time
+from wizard_errors import CreatureTooStrongError, OutOfManaError, LostBattleError
 
 
 class Wizard:
     def __init__(self, level=5):
-        self.mana = 5
+        self.mana = 0
         self.level = level
         self.fight_count = level * 2 - 1
 
@@ -16,20 +17,18 @@ class Wizard:
         self.mana -= 1
 
         if creature.level > self.level:
-            print("Cannot attack")
-            return
+            raise CreatureTooStrongError(creature,"Cannot attack")
 
         if self.mana <= 0:
-            print("Out of mana")
-            return
+            raise OutOfManaError("out of mana")
 
         self.fight_count += 1
-        success = random.randint(0, 10) > 3
+        success = random.randint(0, 10) > 2
 
         time.sleep(1)
 
         if not success:
-            print("The wizard is defeated!")
+            raise LostBattleError(creature,"wizard is dead")
         else:
             print("The wizard stands tall over {0}".format(creature.name))
             if self.fight_count / 2 > self.level:
@@ -37,6 +36,7 @@ class Wizard:
                 print("** The wizard has leveled up! Now level {0}! **".format(self.level))
 
         print("The wizard's mana is now at {0}".format(self.mana))
+
 
     def rest(self):
         print("The wizard is sleeping...")
