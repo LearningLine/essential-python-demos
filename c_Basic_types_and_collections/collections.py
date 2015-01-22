@@ -67,6 +67,17 @@ def run_collections():
     print(num[2:4])  # [13, 17]
     print(num[::3])
     print(num[0:5:3])
-    num[-1]
+    r = num[-1]
 
-    num[4:]
+    r = num[4:]
+
+    d = dict()
+    d["first"] = "sunday"
+    d["second"] = "monday"
+    d["third"] = "tuesday"
+
+    print(  d["second"] )
+
+    print("Looping on dictionaries")
+    for t in d:
+        print(t)
