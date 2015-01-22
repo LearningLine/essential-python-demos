@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ba48dd1-33ad-46ae-b0c2-3d8175317257" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/d_Functions/placeholder.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/e_Classes/placeholder.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/essential-python-demos.iml" afterPath="$PROJECT_DIR$/.idea/essential-python-demos.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/e_Classes/program_classes.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="essential-python-demos.iws" />
@@ -94,11 +92,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="game_lab_functions.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="game_lab_functions.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/d_Functions/lab/game_lab_functions.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.036662452" vertical-offset="1740" max-vertical-offset="3915">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1740" max-vertical-offset="3915">
               <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="program_classes.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/e_Classes/program_classes.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="802">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -153,6 +161,7 @@
         <option value="$PROJECT_DIR$/d_Functions/order.py" />
         <option value="$PROJECT_DIR$/d_Functions/func_program.py" />
         <option value="$PROJECT_DIR$/d_Functions/lab/game_lab_functions.py" />
+        <option value="$PROJECT_DIR$/e_Classes/program_classes.py" />
       </list>
     </option>
   </component>
@@ -723,7 +732,13 @@
       <option name="project" value="LOCAL" />
       <updated>1421881687580</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="remove some place holders">
+      <created>1421953293212</created>
+      <option name="number" value="00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1421953293212</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -750,6 +765,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914045" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32964602" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -766,7 +782,6 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.45597485" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.8197065" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -797,7 +812,8 @@
     <MESSAGE value="pylint." />
     <MESSAGE value="cleanup" />
     <MESSAGE value="Added file and import demos." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added file and import demos." />
+    <MESSAGE value="remove some place holders" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove some place holders" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1117,8 +1133,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/d_Functions/lab/game_lab_functions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.036662452" vertical-offset="1740" max-vertical-offset="3915">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1740" max-vertical-offset="3915">
           <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e_Classes/program_classes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="802">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
